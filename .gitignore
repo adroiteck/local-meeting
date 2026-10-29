@@ -1,0 +1,12 @@
+.runtime/
+.cache/
+Local Meeting.app/
+data/
+__pycache__/
+*.pyc
+.DS_Store
+
+.install.log
+*.tar.gz
+
+.smoke.log

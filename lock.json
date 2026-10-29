@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "cmake": {"url": "https://github.com/Kitware/CMake/releases/download/v3.31.6/cmake-3.31.6-macos-universal.tar.gz", "sha256": "330b9514f5112e5ed4fb08b8b05803b776fd9b539a6ae12927d14dcc0ee2ba8d"},
+  "engines": {
+    "whisper": {"repo": "https://github.com/ggml-org/whisper.cpp.git", "commit": "4979e04f5dcaccb36057e059bbaed8a2f5288315"},
+    "llama": {"repo": "https://github.com/ggml-org/llama.cpp.git", "commit": "74d4f5b041ad837153b0e90fc864b8290e01d8d5"}
+  },
+  "models": {
+    "whisper": {"filename": "ggml-base.en.bin", "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base.en.bin", "sha256": "a03779c86df3323075f5e796cb2ce5029f00ec8869eee3fdfb897afe36c6d002"},
+    "llama": {"filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf", "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/91cad51170dc346986eccefdc2dd33a9da36ead9/qwen2.5-1.5b-instruct-q4_k_m.gguf", "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e"}
+  }
+}

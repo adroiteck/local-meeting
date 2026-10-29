@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>com.adroiteck.localmeeting</string>
+<key>CFBundleName</key><string>Local Meeting</string>
+<key>CFBundleExecutable</key><string>LocalMeeting</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleVersion</key><string>1</string>
+<key>CFBundleShortVersionString</key><string>0.1.0</string>
+<key>LSMinimumSystemVersion</key><string>15.0</string>
+<key>NSMicrophoneUsageDescription</key><string>Record your voice locally for meeting transcription.</string>
+<key>NSScreenCaptureUsageDescription</key><string>Capture meeting system audio locally. No screen images are saved.</string>
+<key>NSHighResolutionCapable</key><true/>
+</dict></plist>
