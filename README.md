@@ -4,6 +4,17 @@ Native macOS app for recording meetings or importing audio, transcribing offline
 
 ## Install on another Mac
 
+Clone the private GitHub repository into a local folder outside iCloud/OneDrive/Dropbox, then run:
+
+```sh
+git clone https://github.com/adroiteck/local-meeting.git
+cd local-meeting
+./install.sh
+open "$HOME/Applications/Local Meeting.app"
+```
+
+GitHub authentication is required to clone this private repository. You can also use GitHub **Code → Download ZIP**, extract it, open Terminal in that folder and run `bash install.sh`. Internet access is needed for the initial dependency/model downloads; meeting processing then runs offline.
+
 Requirements: macOS 15+, Apple Silicon or Intel, Apple Command Line Tools, approximately 4 GB free installation space. Designed for an 8 GB Mac: Whisper Base English (~148 MB), Qwen2.5 1.5B Q4_K_M (~1.12 GB), two CPU threads for notes, models run sequentially. Actual 8 GB/Intel performance is not yet measured. English only in this initial profile. Small models can miss or misclassify commitments.
 
 1. Copy this source folder to a local, non-synchronized location on the new Mac, or run `./package.sh` here and extract the source archive there. The source package excludes all meeting data and models.
